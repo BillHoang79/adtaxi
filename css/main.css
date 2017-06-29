@@ -1,8 +1,10 @@
-* {
+html {
+	color: #FFFFFF;
 	text-align: center;
-	background-image: url("../img/herobanner.jpg");
+	background-image: url(../img/herobanner.jpg);
+	background-size: auto 100%;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center;
 }
 
 .one{
@@ -13,4 +15,23 @@
 	list-style-type: none;
 	display: inline;
 	padding: 25px 25px;
+}
+
+.list li button {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+
+.call button {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border-radius: 3px #FFFFFF;
+	padding: 10px 10px;
+	cursor: pointer;
+	overflow: hidden;
+	color: #FFFFFF;
 }
