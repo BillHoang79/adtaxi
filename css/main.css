@@ -1,0 +1,16 @@
+* {
+	text-align: center;
+	background-image: url("../img/herobanner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.one{
+	margin-top: 20%;
+}
+
+.list li {
+	list-style-type: none;
+	display: inline;
+	padding: 25px 25px;
+}
