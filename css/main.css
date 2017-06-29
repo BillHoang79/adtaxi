@@ -1,37 +1,65 @@
-html {
-	color: #FFFFFF;
-	text-align: center;
-	background-image: url(../img/herobanner.jpg);
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+ html {
+    color: #FFFFFF;
+    text-align: center;
+    background-image: url(../img/herobanner.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .one{
-	margin-top: 20%;
+    margin-top: 20%;
+}
+
+p.fontOne {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 3em;
+}
+
+
+.fontTwo{
+	font-family: 'Merriweather', serif;
+	font-size: 5em;
 }
 
 .list li {
-	list-style-type: none;
-	display: inline;
-	padding: 25px 25px;
+    list-style-type: none;
+    display: inline;
+    padding: 25px 25px;
 }
 
 .list li button {
-	background-color: transparent;
-	background-repeat: no-repeat;
-	border: none;
-	cursor: pointer;
-	overflow: hidden;
-	color: #FFFFFF;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.list li button:focus {
+    outline: none;
+}
+.list li button:hover {
+    outline: #fff solid thin;
+}
+.list li button:active {
+    transform: translateY(1px);
 }
 
 .call button {
-	background-color: transparent;
-	background-repeat: no-repeat;
-	border-radius: 3px #FFFFFF;
-	padding: 10px 10px;
-	cursor: pointer;
-	overflow: hidden;
-	color: #FFFFFF;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 3px #FFFFFF;
+    padding: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #FFFFFF;
 }
+.call button:focus {
+    outline: none;    
+}
+
+
+
