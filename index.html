@@ -4,34 +4,43 @@
 	<title>Coding Challenge</title>
 
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Roboto+Slab:100,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Roboto+Slab:100,400|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 </head>
 <body>
-	<div class="one">
-		<p class="fontOne">we create</p>
-		<h1 class="fontTwo">
-			<strong><i>beautiful smiles</i></strong>
-		</h1>
-	</div>
 	<div>
-		<p><bold>OPEN NOW</bold>  9:00 am - 5:30 pm</p>
-	</div>
-	<div class="schedule bar">
-		<ul class="list">
-			<li><button>MON</button></li>
-			<li><button>TUE</button></li>
-			<li><button>WED</button></li>
-			<li><button>THUR</button></li>
-			<li><button>FRI</button></li>
-			<li><button>SAT</button></li>
-			<li><button>SUN</button></li>
-		</ul>
-	</div>
-	<div class="call">
-		<button>CALL US NOW</button>
+		<div class="one">
+			<p class="fontOne">we create</p>
+			<h1 class="fontTwo">
+				<strong><i onclick="update(this)" data-title="beatiful smiles">beautiful smiles</i></strong>
+			</h1>
+		</div>
+		<div class="two">
+			<ul class="toplist">
+				<li>
+					<p><bold>OPEN NOW</bold></p>
+				</li>
+				<li>
+					<p class="data-time" data-time="data-time"></p>
+				</li>
+			</ul>
+		</div>
+		<div class="schedule bar">
+			<ul class="list">
+				<li><button onclick="updateDate(this)">MON</button></li>
+				<li><button onclick="updateDate(this)">TUE</button></li>
+				<li><button onclick="updateDate(this)">WED</button></li>
+				<li><button onclick="updateDate(this)">THUR</button></li>
+				<li><button onclick="updateDate(this)">FRI</button></li>
+				<li><button onclick="updateDate(this)">SAT</button></li>
+				<li><button onclick="updateDate(this)">SUN</button></li>
+			</ul>
+		</div>
+		<div class="three">
+			<button> CALL US NOW</button>
+		</div>
 	</div>
 
 	<script src="js/main.js"></script>

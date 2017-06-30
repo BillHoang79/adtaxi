@@ -23,13 +23,25 @@ p.fontOne {
 	font-size: 5em;
 }
 
-.list li {
+.toplist li {
     list-style-type: none;
     display: inline;
-    padding: 25px 25px;
 }
 
+.toplist li p {
+    list-style-type: none;
+    display: inline;
+    padding: 15px 38px;
+} 
+
+.list li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px 15px;
+} 
+
 .list li button {
+    text-decoration: underline;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -41,25 +53,35 @@ p.fontOne {
 .list li button:focus {
     outline: none;
 }
+
 .list li button:hover {
     outline: #fff solid thin;
 }
+
 .list li button:active {
     transform: translateY(1px);
 }
 
-.call button {
+div.bold {
+    font-family: 'Roboto', sans-serif;
+}
+
+.three {
+    padding-bottom: 120px;
+}
+
+.three button {
+    width: 15em;
+    height: 3em;
+    color: #FFFFFF;
     background-color: transparent;
     background-repeat: no-repeat;
-    border-radius: 3px #FFFFFF;
-    padding: 10px 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
     cursor: pointer;
     overflow: hidden;
-    color: #FFFFFF;
 }
-.call button:focus {
+
+.three button:focus {
     outline: none;    
 }
-
-
-
