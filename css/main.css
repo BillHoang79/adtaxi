@@ -11,45 +11,44 @@ body {
     margin: 0;
 }
 
-.topDiv {
+.top-div {
     margin-top: 20%;
 }
 
-.headerOne {
+.header-one {
     font-family: 'Merriweather', serif;
-    font-weight: 100;
 	font-size: 2em;
 }
 
-.headerTwo {
+.header-two {
 	font-family: 'Merriweather', serif;
 	font-size: 5em;
 }
 
-.openClose {
+.open-close {
     width: 33%;
     margin-left: 33%;
 }
 
-.openClose li {
+.open-close li {
     list-style-type: none;
     display: inline;
 }
 
-.openClose li p {
+.open-close li p {
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     display: inline;
     padding-right: 50px;
 } 
 
-.dayList li{
+.day-list li{
     list-style-type: none;
     display: inline;
     padding: 15px 15px;
 } 
 
-.dayList li button {
+.day-list li button {
     text-decoration: underline;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -59,27 +58,27 @@ body {
     color: #FFFFFF;
 }
 
-.dayList li button:focus {
+.day-list li button:focus {
     outline: none;
 }
 
-.dayList li button:hover {
+.day-list li button:hover {
     outline: #fff solid thin;
 }
 
-.dayList li button:active {
+.day-list li button:active {
     transform: translateY(1px);
 }
 
-.dayList li button.selected {
+.day-list li button.selected {
     font-weight: 700;
 }
 
-.bottomDiv {
+.bottom-div {
     padding-bottom: 120px;
 }
 
-.bottomDiv button {
+.bottom-div button {
     width: 15em;
     height: 3em;
     color: #FFFFFF;
@@ -95,12 +94,12 @@ body {
     outline: none;    
 }
 
-.openClose .open-now.hidden {
+.open-close .open-now.hidden {
     display: none;
 }
 
 @media(max-width:  992px){
-    .openClose {
+    .open-close {
         width: 50%;
         margin-left: 23%;
     }
@@ -109,32 +108,32 @@ body {
     html {
         height: 100%;
     }
-    .openClose {
+    .open-close {
         width: 80%;
         margin-left: 7%;
     }
-    .dayList {
+    .day-list {
         padding:0;
         margin-right: 40px;
         margin-left:23%;
         width: 50%;
     }
-    .dayList li button {
+    .day-list li button {
         width: 100%;
         font-size: 20px;
     }
-    .bottomDiv button {
+    .bottom-div button {
         width: 50%;
     }
 }
 
 @media(max-width:  600px){
-    .dayList {
+    .day-list {
         margin-left:22%;
     }
 }
 @media(max-width:  500px){
-    .dayList {
+    .day-list {
         margin-left:21%;
     }
 }
