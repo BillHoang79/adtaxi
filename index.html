@@ -4,41 +4,41 @@
 	<title>Coding Challenge</title>
 
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Roboto+Slab:100,400|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700i|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 </head>
 <body>
 	<div>
-		<div class="one">
-			<p class="fontOne">we create</p>
-			<h1 class="fontTwo">
+		<div class="topDiv">
+			<p class="headerOne">we create</p>
+			<h1 class="headerTwo">
 				<strong><i onclick="update(this)" data-title="beatiful smiles">beautiful smiles</i></strong>
 			</h1>
 		</div>
-		<div class="two">
-			<ul class="toplist">
-				<li>
+		<div class="middleDiv">
+			<ul class="openClose">
+				<li class="open-now">
 					<p><bold>OPEN NOW</bold></p>
 				</li>
 				<li>
-					<p class="data-time" data-time="data-time"></p>
+					<p class="data-time"></p>
 				</li>
 			</ul>
 		</div>
-		<div class="schedule bar">
-			<ul class="list">
-				<li><button onclick="updateDate(this)">MON</button></li>
-				<li><button onclick="updateDate(this)">TUE</button></li>
-				<li><button onclick="updateDate(this)">WED</button></li>
-				<li><button onclick="updateDate(this)">THUR</button></li>
-				<li><button onclick="updateDate(this)">FRI</button></li>
-				<li><button onclick="updateDate(this)">SAT</button></li>
-				<li><button onclick="updateDate(this)">SUN</button></li>
+		<div class="scheduleBar">
+			<ul class="dayList">
+				<li><button id="monday" onclick="updateData(this)">MON</button></li>
+				<li><button id="tuesday" onclick="updateData(this)">TUE</button></li>
+				<li><button id="wednesday" onclick="updateData(this)">WED</button></li>
+				<li><button id="thursday" onclick="updateData(this)">THUR</button></li>
+				<li><button id="friday" onclick="updateData(this)">FRI</button></li>
+				<li><button id="saturday" onclick="updateData(this)">SAT</button></li>
+				<li><button id="sunday" onclick="updateData(this)">SUN</button></li>
 			</ul>
 		</div>
-		<div class="three">
+		<div class="bottomDiv">
 			<button> CALL US NOW</button>
 		</div>
 	</div>

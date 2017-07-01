@@ -1,46 +1,55 @@
- html {
+html {
     color: #FFFFFF;
     text-align: center;
     background-image: url(../img/herobanner.jpg);
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 25%;
 }
 
-.one{
+body {
+    margin: 0;
+}
+
+.topDiv {
     margin-top: 20%;
 }
 
-p.fontOne {
-	font-family: 'Roboto Slab', serif;
-	font-weight: lighter;
-	font-size: 3em;
+.headerOne {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+	font-size: 2em;
 }
 
-
-.fontTwo{
+.headerTwo {
 	font-family: 'Merriweather', serif;
 	font-size: 5em;
 }
 
-.toplist li {
+.openClose {
+    width: 33%;
+    margin-left: 33%;
+}
+
+.openClose li {
     list-style-type: none;
     display: inline;
 }
 
-.toplist li p {
+.openClose li p {
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
     display: inline;
-    padding: 15px 38px;
+    padding-right: 50px;
 } 
 
-.list li{
+.dayList li{
     list-style-type: none;
     display: inline;
     padding: 15px 15px;
 } 
 
-.list li button {
+.dayList li button {
     text-decoration: underline;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -50,27 +59,27 @@ p.fontOne {
     color: #FFFFFF;
 }
 
-.list li button:focus {
+.dayList li button:focus {
     outline: none;
 }
 
-.list li button:hover {
+.dayList li button:hover {
     outline: #fff solid thin;
 }
 
-.list li button:active {
+.dayList li button:active {
     transform: translateY(1px);
 }
 
-div.bold {
-    font-family: 'Roboto', sans-serif;
+.dayList li button.selected {
+    font-weight: 700;
 }
 
-.three {
+.bottomDiv {
     padding-bottom: 120px;
 }
 
-.three button {
+.bottomDiv button {
     width: 15em;
     height: 3em;
     color: #FFFFFF;
@@ -84,4 +93,48 @@ div.bold {
 
 .three button:focus {
     outline: none;    
+}
+
+.openClose .open-now.hidden {
+    display: none;
+}
+
+@media(max-width:  992px){
+    .openClose {
+        width: 50%;
+        margin-left: 23%;
+    }
+}
+@media(max-width:  768px){
+    html {
+        height: 100%;
+    }
+    .openClose {
+        width: 80%;
+        margin-left: 7%;
+    }
+    .dayList {
+        padding:0;
+        margin-right: 40px;
+        margin-left:23%;
+        width: 50%;
+    }
+    .dayList li button {
+        width: 100%;
+        font-size: 20px;
+    }
+    .bottomDiv button {
+        width: 50%;
+    }
+}
+
+@media(max-width:  600px){
+    .dayList {
+        margin-left:22%;
+    }
+}
+@media(max-width:  500px){
+    .dayList {
+        margin-left:21%;
+    }
 }
