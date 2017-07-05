@@ -1,10 +1,3 @@
-# adTaxi
-
-Coding challenge for adTaxi
-
-Clone into github branch:
-
-$ git clone https://github.com/billhoang79/adtaxi.git
 # adTaxi Coding Challenge
 
 The project was to make an responsive pixel perfect conversion of an website without the use of any framework, libaries, or plug-in(jQuery ok for DOM and data).
