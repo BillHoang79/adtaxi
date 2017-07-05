@@ -7,20 +7,20 @@ BONUS: dynamically inserted hours using data(data base or JS object)
 Open From message changes to Open Now if within business hours.
 
 ## Getting Started
-
-Clone into github branch or download file
-*https://github.com/billhoang79/adtaxi.git*
+### link to repository
+https://github.com/billhoang79/adtaxi.git
 
 ## Clone 
-*open terminal or cmd*
-navigate to directory(cd nameofdirectory) you would like to clone in and run:
-
-*$ git clone https://github.com/billhoang79/adtaxi.git*
-*unzip file and click on index.html to run in broswer(google chrome recommended)*
+* open terminal or cmd
+* navigate to directory(cd nameofdirectory) you would like to clone in and run:
+```
+$ git clone https://github.com/billhoang79/adtaxi.git
+```
+* unzip file and click on index.html to run in broswer(google chrome recommended)
 
 ## Download
-*click link above then click on the green button and choose download zip.*
-*unzip file and click on index.html to run in broswer(google chrome recommended)*
+* click link above then click on the green button and choose download zip.
+* unzip file and click on index.html to run in broswer(google chrome recommended)
 
 ### Prerequisites
 have an web browser(goole chrome reccommended)
