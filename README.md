@@ -1,4 +1,6 @@
-# adtaxi
+# adTaxi
+
+Coding challenge for adTaxi
 
 Clone into github branch:
 
