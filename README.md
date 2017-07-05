@@ -7,8 +7,6 @@ BONUS: dynamically inserted hours using data(data base or JS object)
 Open From message changes to Open Now if within business hours.
 
 ## Getting Started
-### link to repository
-https://github.com/billhoang79/adtaxi.git
 
 ## Clone 
 * open terminal or cmd
