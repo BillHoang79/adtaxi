@@ -19,7 +19,7 @@ $ git clone https://github.com/billhoang79/adtaxi.git
 * unzip file and click on index.html to run in broswer(google chrome recommended)
 
 ## Download
-* click link above then click on the green button and choose download zip.
+* click on the green download button and choose download zip.
 * unzip file and click on index.html to run in broswer(google chrome recommended)
 
 ### Prerequisites
