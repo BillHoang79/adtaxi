@@ -15,17 +15,22 @@ Open From message changes to Open Now if within business hours.
 
 ## Getting Started
 
-1. Clone into github branch or download file
-2. unzip files
-3. double-click index.html file to open in your browser
+Clone into github branch or download file(link below)
+https://github.com/billhoang79/adtaxi.git
+
+## Clone 
+open terminal or cmd
+navigate to directory(cd nameofdirectory) you would like to clone in and run:
 
 $ git clone https://github.com/billhoang79/adtaxi.git
+unzip file and click on index.html to run in broswer(google chrome recommended)
+
+## Download
+click link above then click on the green button and choose download zip.
+unzip file and click on index.html to run in broswer(google chrome recommended)
 
 ### Prerequisites
 have an web browser(goole chrome reccommended)
-
-
-
 
 ## Authors
 
